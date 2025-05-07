@@ -638,7 +638,9 @@ header
     padding: 0px;
   }
   .header-area .logo {
-    margin-left: 30px;
+    margin-left: 0; /* Elimină margin-left pentru aliniere mai bună */
+    width: 150px; /* Setează o lățime fixă sau procentuală pentru logo */
+    height: auto; /* Menține raportul corect de aspect */
   }
   .header-area .menu-trigger {
     display: block !important;
