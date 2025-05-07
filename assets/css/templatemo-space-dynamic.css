@@ -1,39 +1,6 @@
-/* 
 
-TemplateMo 562 Space Dynamic
-
-https://templatemo.com/tm-562-space-dynamic
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-/* 
----------------------------------------------
-reset
---------------------------------------------- 
-*/
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -44,14 +11,13 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
-/* clear fix */
+
 .grid:after {
   content: '';
   display: block;
   clear: both;
 }
 
-/* ---- .grid-item ---- */
 
 .grid-sizer,
 .grid-item {
@@ -135,11 +101,6 @@ img {
   overflow: hidden;
 }
 
-/* 
----------------------------------------------
-global styles
---------------------------------------------- 
-*/
 html,
 body {
   background: #fff;
@@ -231,12 +192,6 @@ body {
   border-radius: 23px;
   letter-spacing: 0.25px;
 }
-
-/* 
----------------------------------------------
-header
---------------------------------------------- 
-*/
 
 .background-header {
   background-color: #fff!important;
@@ -638,9 +593,9 @@ header
     padding: 0px;
   }
   .header-area .logo {
-    margin-left: 0; /* Elimină margin-left pentru aliniere mai bună */
-    width: 150px; /* Setează o lățime fixă sau procentuală pentru logo */
-    height: auto; /* Menține raportul corect de aspect */
+    margin-left: 0; 
+    width: 150px; 
+    height: auto; 
   }
   .header-area .menu-trigger {
     display: block !important;
@@ -724,12 +679,6 @@ header
     display: flex !important;
   }
 }
-
-/* 
----------------------------------------------
-preloader
---------------------------------------------- 
-*/
 
 .js-preloader {
     position: fixed;
@@ -824,14 +773,6 @@ preloader
     background: #fe3f40;
     border-radius: 50%;
 }
-
-
-
-/* 
----------------------------------------------
-Banner Style
---------------------------------------------- 
-*/
 
 .main-banner {
   background-repeat: no-repeat;
@@ -937,14 +878,6 @@ Banner Style
   color: #fff;
 }
 
-
-
-/* 
----------------------------------------------
-About Us Style
---------------------------------------------- 
-*/
-
 #about {
   margin-top: 120px;
 }
@@ -984,13 +917,6 @@ About Us Style
 .about-us .services .item p {
   color: #fff;
 }
-
-
-/* 
----------------------------------------------
-Services Style
---------------------------------------------- 
-*/
 
 .our-services {
   margin-top: 0px;
@@ -1074,13 +1000,6 @@ Services Style
   width: 90%;
 }
 
-
-/* 
----------------------------------------------
-Portfolio
---------------------------------------------- 
-*/
-
 .our-portfolio {
   padding-top: 120px;
   margin-top: 0px;
@@ -1162,13 +1081,6 @@ Portfolio
 .our-portfolio .showed-content img {
   max-width: 100px;
 }
-
-
-/* 
----------------------------------------------
-Blog
---------------------------------------------- 
-*/
 
 .our-blog {
   position: relative;
@@ -1281,13 +1193,6 @@ Blog
   width: 250px;
   border-radius: 20px;
 }
-
-
-/* 
----------------------------------------------
-contact
---------------------------------------------- 
-*/
 
 .contact-us {
   padding: 160px 0px;
@@ -1415,13 +1320,6 @@ form#contact button:hover {
   background-color: #fe3f40;
 }
 
-
-/* 
----------------------------------------------
-Footer Style
---------------------------------------------- 
-*/
-
 footer p {
   text-align: center;
   margin: 30px 0px 45px 0px;
@@ -1430,12 +1328,6 @@ footer p {
 footer p a {
   color: #fe3f40;
 }
-
-/* 
----------------------------------------------
-responsive
---------------------------------------------- 
-*/
 
 @media (max-width: 1645px) {
   form#contact .contact-dec {
