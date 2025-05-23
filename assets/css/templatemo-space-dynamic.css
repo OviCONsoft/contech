@@ -1480,6 +1480,18 @@ footer p a {
     margin-left: 0px;
   }
   .our-blog .right-list ul li {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-right: 0 !important; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  } 
+  .our-blog .right-list ul li {
     display: inline-block;
     margin-top: 0px;
     padding-top: 30px;
