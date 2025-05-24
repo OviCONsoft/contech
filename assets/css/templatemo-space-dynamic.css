@@ -1444,6 +1444,7 @@ footer p a {
   .our-blog .left-image .info .inner-content {
     position: relative;
     margin-right: 0px;
+    margin-bottom: -25px;
   }
   .our-blog .left-image .info .main-blue-button {
     position: relative;
